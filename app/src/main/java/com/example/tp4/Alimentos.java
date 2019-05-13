@@ -25,6 +25,5 @@ public class Alimentos extends AppCompatActivity {
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_nodo_lista, R.id.editText2, listaAlimentos);
         listaAlimentosView.setAdapter(arrayAdapter);
     }
-
 }
 

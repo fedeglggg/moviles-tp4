@@ -1,6 +1,7 @@
 package com.example.tp4;
 
 import android.content.Intent;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
         // creo el boton y agreo un onclick -> crea un intent y pasa a ejectuar la actividad siguiente
         Button alimentosButton;
         alimentosButton = (Button) findViewById(R.id.alimentosButton);
@@ -22,6 +24,18 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent(getApplicationContext(),Alimentos.class);
+                startActivity(intent);
+            }
+        });
+
+        //piramide
+        Button piramideButton;
+        piramideButton = (Button) findViewById(R.id.piramideButton);
+        piramideButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent(getApplicationContext(),Piramide.class);
                 startActivity(intent);
             }
         });

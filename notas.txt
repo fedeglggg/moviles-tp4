@@ -1,0 +1,3 @@
+4) menu
+2) imagen y lista- on click y snack 
+3) webview que linkea directo a una url
