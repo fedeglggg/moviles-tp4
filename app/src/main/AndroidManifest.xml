@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Piramide"></activity>
         <activity
             android:name=".NodoLista"
             android:label="@string/title_activity_nodo_lista"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Alimentos" />
         <activity android:name=".alimentos" />
         <activity android:name=".MainActivity">
