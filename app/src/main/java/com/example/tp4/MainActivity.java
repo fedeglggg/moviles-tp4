@@ -40,6 +40,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //informacion extra
+        Button informacionExtraButton;
+        piramideButton = (Button) findViewById(R.id.informacionExtraButton);
+        piramideButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent(getApplicationContext(),InformacionExtra.class);
+                startActivity(intent);
+            }
+        });
+
+
 
 
     }
