@@ -10,7 +10,7 @@
         android:id="@+id/listaDeAlimentosView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:divider="#f00"
+        android:divider="#2398F4"
         android:dividerHeight="1dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

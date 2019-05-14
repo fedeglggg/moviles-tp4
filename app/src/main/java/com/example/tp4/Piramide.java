@@ -17,7 +17,7 @@ public class Piramide extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_piramide);
 
-        Button buttonViewSnack = (Button) findViewById(R.id.buttonViewSnack);
+        TextView buttonViewSnack = (TextView) findViewById(R.id.buttonViewSnack);
         buttonViewSnack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
