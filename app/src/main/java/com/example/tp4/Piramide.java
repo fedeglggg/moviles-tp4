@@ -15,16 +15,13 @@ import android.widget.TextView;
 
 public class Piramide extends AppCompatActivity {
 
-    // datatos de la lista
-
-
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_piramide);
-
+        
 
 
     }
